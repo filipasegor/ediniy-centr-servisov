@@ -14,12 +14,12 @@
 
     <nav>
       <ul>
-        <li><a href="reserches.html">Исследования</a></li>
+        <li class="selected" ><a href="reserches.html">Исследования</a></li>
         <li><a href="equipment.html">Оборудование</a></li>
         <li><a href="dpo.html">Дополнительное образование</a></li>
         <li><a href="trenings.html">Тренинги</a></li>
       </ul>
-    </nav>  
+    </nav>
 
     <section class="main-title">
       <img src="img/campus.png" alt="campus">
@@ -29,103 +29,120 @@
       <p>РЭУ&nbsp;&mdash; мощный научный центр, обладающий более 15&nbsp;лабораториями, оснащенными уникальным оборудованием.</p>
     </section>
 
-    <section class="content-section">
+    <section class="action-section">
       <h2>Научные исследования</h2>
-
-      <div class="deep-link">
-        <div class="deep-link-text">
-          <h3>Общественные</h3>
-          <p>Экономика, финансы, управление рисками, социология, менеджмент, образование, статистика, таможенное дело, товарный менеджмент, реклама.</p>
+      <div class="action-flex-container">
+        <div class="action-container large">
+          <div class="deep-link-text">
+            <h3>Общественные</h3>
+            <p>Экономика, финансы, управление рисками, социология, менеджмент, образование, статистика, таможенное дело, товарный менеджмент, реклама.</p>
+          </div>
+          <img src="img/link-arrow.svg" alt="arrow">
         </div>
-        <img src="img/arrow.svg" alt="arrow">
+
+          <div class="action-container large">
+            <div class="deep-link-text">
+              <h3>Гуманитарные</h3>
+              <p>История, философия, психология, физическая культура, политология, иностранные языки, юриспруденция.</p>
+            </div>
+            <img src="img/link-arrow.svg" alt="arrow">
+          </div>
+
+          <div class="action-container large">
+            <div class="deep-link-text">
+              <h3>Технические</h3>
+              <p>Информатика, кибернетика, искусственный интеллект, большие данные.</p>
+            </div>
+            <img src="img/link-arrow.svg" alt="arrow">
+          </div>
+
+          <div class="action-container large">
+            <div class="deep-link-text">
+              <h3>Естественные</h3>
+              <p>Химия, химическая технология, математика.</p>
+            </div>
+            <img src="img/link-arrow.svg" alt="arrow">
+          </div>
       </div>
-
-        <div class="deep-link">
-          <div class="deep-link-text">
-            <h3>Гуманитарные</h3>
-            <p>История, философия, психология, физическая культура, политология, иностранные языки, юриспруденция.</p>
-          </div>
-          <img src="img/arrow.svg" alt="arrow">
-        </div>
-
-        <div class="deep-link">
-          <div class="deep-link-text">
-            <h3>Технические</h3>
-            <p>Информатика, кибернетика, искусственный интеллект, большие данные.</p>
-          </div>
-          <img src="img/arrow.svg" alt="arrow">
-        </div>
-
-        <div class="deep-link">
-          <div class="deep-link-text">
-            <h3>Естественные</h3>
-            <p>Химия, химическая технология, математика.</p>
-          </div>
-          <img src="img/arrow.svg" alt="arrow">
-        </div>
     </section>
 
-    <section class="content-section">
+    <section class="action-section">
       <h2>Экспертизы</h2>
-      <ul class="list">
+      <ul class="hidden-list">
         <li>&bull; Научная и&nbsp;научно-техническая экспертиза</li>
         <li>&bull; Экспертиза исследовательских проектов</li>
         <li>&bull; Экспертиза в&nbsp;области противодействия коррупционным проявлениям</li>
-        <li>&bull; Финансовая и&nbsp;экономическая экспертиза</li>
+        <ul class="hidden-ul">
+          <li>&bull; Финансовая и&nbsp;экономическая экспертиза</li>
+          <li class="dropDown">&bull; Качество продукции, товаров и&nbsp;услуг</li>
+          <li class="dropDown">&bull; Консультирование органов власти</li>
+          <li class="dropDown">&bull; Правовая и&nbsp;судебная экспертиза</li>
+          <li class="dropDown">&bull; Защита и&nbsp;управление интеллектуальной и&nbsp;иными видами собственности</li>
+          <li class="dropDown">&bull; Рецензии на&nbsp;книги, учебные программы и&nbsp;другие образовательные материалы</li>
+          <li class="dropDown">&bull; Психолого-лингвистическая экспертиза</li>
+          <li class="dropDown">&bull; Юридическая экспертиза документов</li>
+          <li class="dropDown">&bull; Отзывы и&nbsp;экспертизы по&nbsp;диссертациям</li>
+          <li class="dropDown">&bull; Экспертиза образовательных программ</li>
+        </ul>
+
       </ul>
-      <button type="button" class="button-list"name="button">
+      <button type="button" class="button flex" id="openListButton" name="button">
         <span class="button-text-list">Полный список</span>
         <span class="button-icon">
           <img src="img/chevron.svg" alt="button-icon">
         </span>
     </section>
 
-    <section class="content-section">
+    <section class="action-section">
       <h2>Консалтинг</h2>
+      <div class="action-flex-container">
+        <div class="action-container noaction">
+          <img src="img/it.svg" alt="finance_manage">
+          <p>Общее финансовое управление, аудит</p>
+        </div>
 
-      <div class="default-container">
-        <img src="img/it.svg" alt="finance_manage">
-        <p>Общее финансовое управление, аудит</p>
-      </div>
+        <div class="action-container noaction">
+          <img src="img/analisis.svg" alt="analisis">
+          <p>Анализ конъюнктуры рынка, маркетинг</p>
+        </div>
 
-      <div class="default-container">
-        <img src="img/analisis.svg" alt="analisis">
-        <p>Анализ конъюнктуры рынка, маркетинг</p>
-      </div>
+        <div class="action-container noaction">
+          <img src="img/laws.svg" alt="laws">
+          <p>Администрирование, юридические услуги</p>
+        </div>
 
-      <div class="default-container">
-        <img src="img/laws.svg" alt="laws">
-        <p>Администрирование, юридические услуги</p>
-      </div>
-
-      <div class="default-container">
-        <img src="img/it.svg" alt="it">
-        <p>Цифровые услуги в&nbsp;IT-сфере</p>
+        <div class="action-container noaction">
+          <img src="img/it.svg" alt="it">
+          <p>Цифровые услуги в&nbsp;IT-сфере</p>
+        </div>
       </div>
     </section>
 
-    <section class="custom-section">
+    <section class="action-section banner stats">
       <h2>Единый центр сервисов в&nbsp;цифрах</h2>
+      <div class="stats-container">
+        <div class="numbers">
+          <h3>>50</h3>
+          <p>проведенных экспертиз</p>
+        </div>
 
-      <div class="stats">
-        <h3>>50</h3>
-        <p>проведенных экспертиз</p>
-      </div>
+        <div class="numbers">
+          <h3>>170</h3>
+          <p>научно-исследовательских проектов ежегодно</p>
+        </div>
 
-      <div class="stats">
-        <h3>>170</h3>
-        <p>научно-исследовательских проектов ежегодно</p>
-      </div>
-
-      <div class="stats">
-        <h3>>150</h3>
-        <p>внешних заказчиков ежегодно</p>
+        <div class="numbers">
+          <h3>>150</h3>
+          <p>внешних заказчиков ежегодно</p>
+        </div>
       </div>
     </section>
 
-    <section class="content-section-logos">
+    <section class="carusel-section">
+      <div class="carusel-title">
       <h2>Наши клиенты</h2>
-      <div class="logos">
+      </div>
+      <div class="carusel">
         <img src="img/minpromtorg.png" alt="minpromtorg">
         <img src="img/duma.png" alt="duma">
         <img src="img/rosneft.png" alt="rosneft">
@@ -133,7 +150,7 @@
       </div>
     </section>
 
-    <section class="content-section">
+    <section class="action-section">
       <h2>Контакты</h2>
       <div class="person">
         <div class="person-name">
@@ -194,6 +211,6 @@
         <p>All rights reserved</p>
       </div>
     </footer>
-
+    <script src="script.js"></script>
   </body>
 </html>

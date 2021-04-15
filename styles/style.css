@@ -1,3 +1,17 @@
 @import "reset.css";
 @import "fonts.css";
+@import "head.css";
 @import "main.css";
+@import "main-page-title.css";
+@import "button.css";
+@import "carts.css";
+@import "action-container.css";
+@import "footer.css";
+@import "main-title.css";
+@import "action-section.css";
+@import "person.css";
+@import "hidden-list.css";
+@import "default-container.css";
+@import "carusel.css";
+@import "banner.css";
+@import "small-banner.css";

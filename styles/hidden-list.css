@@ -1,0 +1,36 @@
+
+@media (min-width: 320px) {
+
+  .hidden-list li{
+    padding: 6px 0px;
+
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 130%;
+  }
+
+  .hidden-list {
+    margin-bottom: 30px;
+  }
+
+  /* .dropDown{
+    display: none;
+  } */
+
+  .hidden-ul{
+    display: none;
+  }
+
+}
+
+@media (min-width: 768px){
+
+  .hidden-list li{
+    font-size: 22px;
+  }
+
+  .hidden-list {
+    margin-bottom: 30px;
+  }
+}

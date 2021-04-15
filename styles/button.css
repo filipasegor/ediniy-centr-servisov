@@ -1,0 +1,54 @@
+@media (min-width: 320px) {
+
+  .button {
+    display: inline-block;
+
+    width: 100%;
+    padding: 15px 20px;
+
+    color: white;
+    border: none;
+    border-radius: 13px;
+    background: #1B4773;
+
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+  .flex {
+    display: flex;
+
+    width: 100%;
+
+
+    color: #1B4773;
+    border-radius: 13px;
+    background: #FFFFFF;
+
+
+
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+  .button-text,
+  .button-icon {
+    display: inline-flex;
+
+    height: 100%;
+  }
+
+
+}
+
+@media (min-width: 320px) {
+  .button {
+    font-size: 20px;
+  }
+
+}

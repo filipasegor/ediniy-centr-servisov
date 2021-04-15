@@ -1,0 +1,54 @@
+
+
+@media (min-width: 320px) {
+
+  .action-section h2{
+    padding: 16px 0px 30px 0px;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 120%;
+  }
+
+  .action-section {
+    margin: 0px 15px 30px 15px;
+    padding-bottom: 30px;
+
+    border-radius: 25px;
+    background-color: #F3F3F3;
+  }
+
+
+}
+
+@media (min-width:768px) {
+
+  .action-section h2{
+
+    font-size: 50px;
+    line-height: 120%;
+  }
+
+  .action-section {
+    margin: 0px 40px 30px 40px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .action-section {
+    margin: 0px 40px 60px 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .action-section {
+    margin: 0px 150px 80px 150px;
+  }
+
+  .action-section h2{
+
+    font-size: 60px;
+  }
+}
