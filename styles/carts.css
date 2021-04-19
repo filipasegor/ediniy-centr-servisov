@@ -21,7 +21,13 @@
     line-height: 120%;
   }
 
+  .carts a{
+    text-decoration: none;
+  }
 
+  .carts a:visited{
+    color: inherit;
+  }
 
   .section-cart{
     margin-bottom: 40px;
@@ -30,6 +36,7 @@
     border-radius: 25px;
     background-color: #F3F3F3;
   }
+
 
 
 }
@@ -72,10 +79,17 @@
     justify-content: space-between;
   }
 
+  .carts a{
+    padding: 1%;
+    width: 47%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
   .section-cart{
-    margin-bottom: 5%;
-    padding: 30px;
-    width: 41%;
+    margin-bottom: 20px;
+    /* padding: 30px; */
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
@@ -83,9 +97,13 @@
 }
 @media (min-width: 1440px) {
 
-  .section-cart{
+  /* .section-cart{
     margin-bottom: 4%;
-    width: 43%;
+  } */
+
+  .carts a{
+    padding: 1%;
+    width: 45%;
   }
 
   .carts p{

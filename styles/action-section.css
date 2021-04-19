@@ -19,6 +19,10 @@
     background-color: #F3F3F3;
   }
 
+  .dropdown-par{
+    display: none;
+  }
+
 
 }
 

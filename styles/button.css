@@ -11,7 +11,7 @@
     border-radius: 13px;
     background: #1B4773;
 
-    font-size: 17px;
+    font-size: 20px;
     font-weight: normal;
     font-style: normal;
   }
@@ -35,6 +35,10 @@
 
   }
 
+  .flex:hover{
+    background-color: #DBDBFF;
+  }
+
 
   .button-text,
   .button-icon {
@@ -44,11 +48,29 @@
   }
 
 
-}
 
-@media (min-width: 320px) {
   .button {
     font-size: 20px;
   }
 
+  .fixed{
+    width: 60%;
+    height: 50px;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+    left: 78%;
+  }
+
+}
+
+@media (min-width:1024px){
+  .fixed{
+    width: 20%;
+    height: 50px;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+    left: 78%;
+  }
 }

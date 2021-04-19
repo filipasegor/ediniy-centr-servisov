@@ -1,68 +1,117 @@
-footer{
-  padding: 35px 30px;
+@media (min-width: 320px) {
+  footer{
+    margin-top: 30px;
+    padding: 35px 30px;
 
-  background-color: #1B4773;
+    background-color: #1B4773;
+  }
+
+  .white-logo{
+    display: flex;
+
+    width: 100%;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0px;
+  }
+
+  .white-logo img{
+    width: 54px;
+  }
+
+  .white-logo p{
+    color: #FFFFFF;
+    padding-left: 3%;
+    line-height: 130%;
+    max-width: 700px;
+  }
+
+  .footer-link, .bottom{
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px 0px;
+
+    align-items: flex-start;
+  }
+
+  .footer-link a, .footer-link p{
+    margin-top: 16px;
+
+    color: white;
+
+    font-size: 16px;
+    font-weight:  300;
+    font-style: normal;
+    line-height: 130%;
+  }
+
+  .bottom p{
+    margin-bottom: 16px;
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 130%
+  }
+
+  .bottom a{
+    color: white;
+  }
+
 }
 
-.white-logo{
-  display: flex;
+@media (min-width: 768px){
 
-  margin-bottom: 20px;
+  .white-logo{
+    font-size: 30px;
 
-  color: white;
+  }
 
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
+  .footer-link a, .footer-link p{
+    font-size: 30px;
+  }
 
-  justify-content: space-between;
-  align-items: center;
-}
+  .bottom p{
 
-.white-logo img{
-  width: 54px;
-  height: 54px;
-}
+    font-size: 30px;
 
-.footer-link, .bottom{
-  display: flex;
-  flex-direction: column;
+  }
 
-  padding: 25px 0px;
+  footer{
+    padding: 35px 40px;
 
-  align-items: flex-start;
-}
+    background-color: #1B4773;
+  }
 
-.footer-link p{
-  color: white;
-
-  font-size: 16px;
-  font-weight:  500;
-  font-style: normal;
+  .white-logo img{
+    width: 80px;
+  }
 
 }
 
-.footer-link a{
-  margin-top: 16px;
 
-  color: white;
+@media (min-width: 1024px){
 
-  font-size: 16px;
-  font-weight:  300;
-  font-style: normal;
-  line-height: 18px;
+
+  footer{
+    padding: 35px 40px;
+  }
+
 }
 
-.bottom p{
-  margin-bottom: 16px;
+@media (min-width: 1024px){
 
-  color: white;
 
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-}
+  footer{
+    padding: 35px 150px;
+  }
 
-.bottom a{
-  color: white;
 }

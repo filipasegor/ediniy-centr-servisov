@@ -55,7 +55,7 @@
   .main-title h1{
     margin: 40px 0px;
     font-size: 80px;
-    max-width: 1440px;
+    max-width: 1200px;
   }
 
   .main-title p{
@@ -66,6 +66,10 @@
 
   .main-title p:last-child{
     margin-bottom: 60px;
+  }
+
+  .main-title img{
+    width: 80%;
   }
 
 }
