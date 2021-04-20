@@ -4,13 +4,13 @@
     margin-top: 20px;
     margin-bottom: 10px;
 
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     font-style: normal;
   }
 
   .banner p, .banner li{
-    max-width: 225px;
+    max-width: 150px;
 
     font-size: 17px;
     font-weight: normal;
@@ -21,16 +21,17 @@
   .banner li{
     padding: 6px 0px;
     margin-bottom: 30px;
+    max-width: 225px;
   }
 
 
   .banner {
     margin: 0px 15px 40px 15px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 
     border-radius: 25px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
   }
 
@@ -42,11 +43,18 @@
 
   .stats{
     color: white;
-    background-image: url(../img/bg_stats.png);
+    background-image: radial-gradient(46.09% 44.1% at 77.21% 80.02%, #009B7F 0%, #1B4773 100%);
+  }
+
+  .stats-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .trenings{
     background-image: url(../img/bg-trenings.png);
+    background-position: top;
   }
 
   .dpo{
@@ -103,7 +111,6 @@
 
   .banner{
     margin: 0px 150px 80px 150px;
-    background-position: top;
   }
 
 }

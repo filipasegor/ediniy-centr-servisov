@@ -1,5 +1,10 @@
 
 @media (min-width: 320px) {
+
+  html{
+    scroll-behavior: smooth;
+  }
+  
   header, nav, section, footer, button {
     font-family: "Formular", sans-serif;
     line-height: 120%;
@@ -9,6 +14,10 @@
   section {
     padding: 0px 15px;
     margin-bottom: 40px;
+  }
+
+  section a {
+    text-decoration: none;
   }
 }
 

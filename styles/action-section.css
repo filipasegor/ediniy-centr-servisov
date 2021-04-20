@@ -23,6 +23,30 @@
     display: none;
   }
 
+  .action-section a{
+    display: flex;
+
+    margin-bottom: 16px;
+    padding: 15px;
+
+    color: #1B4773;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 120%;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    text-decoration: none;
+  }
+
+  .action-section a:hover{
+    background-color: #DBDBFF;
+  }
+
 
 }
 
