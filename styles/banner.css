@@ -46,6 +46,29 @@
     background-image: radial-gradient(46.09% 44.1% at 77.21% 80.02%, #009B7F 0%, #1B4773 100%);
   }
 
+  .stats{
+    background: #1B4773;
+    border: none;
+    color: white;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+  .stats:before{
+    --size: 3000px;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(46.09% 44.1% at 77.21% 80.02%, #009B7F 0%, rgba(27, 71, 115, 0) 100%);
+    transform: translate(-50%, -50%);
+    transition: width 0.01s ease, height 0.2s ease;
+    border-radius: 100%;
+  }
+
   .stats-flex{
     display: flex;
     justify-content: space-between;
@@ -98,15 +121,20 @@
     margin: 0px 40px 60px 40px;
   }
 
-}
-
-@media (min-width: 1440px) {
-
   .banner p, .banner li{
     max-width: 400px;
 
     font-size: 22px;
   }
+
+  .stats-flex{
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
 
 
   .banner{

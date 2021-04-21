@@ -1,3 +1,5 @@
+window.addEventListener('load', function() {
+
 
   const list = document.querySelector('.hidden-ul');
   const openButton = document.getElementById('openListButton');
@@ -46,3 +48,36 @@
       }
     })
   }
+
+
+const backgroundGradient = document.getElementsByClassName('background-gradient');
+
+  for(let i = 0; i < backgroundGradient.length; i++){
+    backgroundGradient[i].addEventListener('mousemove', e => {
+      let rect = e.target.getBoundingClientRect();
+      let x = e.clientX - rect.left;
+      let y = e.clientY - rect.top;
+      console.log(backgroundGradient);
+      backgroundGradient[i].style.setProperty('--x', x + 'px');
+      backgroundGradient[i].style.setProperty('--y', y + 'px');
+    });
+  }
+
+// const arrow = document.getElementsByClassName('arrow');
+//
+// if (backgroundGradient && arrow) {
+//   backgroundGradient.addEventListener('mousemove', e => {
+//     arrow.toggle.classList('active');
+//   });
+// }
+  const stats = document.getElementById('stats');
+  stats.addEventListener('mousemove', e => {
+    let rect = e.target.getBoundingClientRect();
+    let x = e.clientX - rect.left;
+    let y = e.clientY - rect.top;
+    console.log(backgroundGradient);
+    stats.style.setProperty('--x', x + 'px');
+    stats.style.setProperty('--y', y + 'px');
+  })
+
+})
