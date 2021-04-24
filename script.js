@@ -1,5 +1,22 @@
 window.addEventListener('load', function() {
 
+  ymaps.ready(init);
+       function init(){
+           var myMap = new ymaps.Map("map", {
+               center: [55.727268, 37.627696],
+               zoom: 18
+           });
+
+			// Создание метки
+			var myPlacemark = new ymaps.Placemark(
+			// Координаты метки
+			[55.727268, 37.627696]
+			);
+
+		// Добавление метки на карту
+		myMap.geoObjects.add(myPlacemark);
+       }
+
 
   const list = document.querySelector('.hidden-ul');
   const openButton = document.getElementById('openListButton');
