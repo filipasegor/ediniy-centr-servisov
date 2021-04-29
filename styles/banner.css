@@ -47,7 +47,8 @@
   }
 
   .stats{
-    background: #1B4773;
+    background-image: url(../img/rea_results.png);
+    background-position: right 0% bottom 20%;
     border: none;
     color: white;
     overflow: hidden;
@@ -55,7 +56,7 @@
   }
 
 
-  .stats:before{
+  /* .stats:before{
     --size: 3000px;
     content: '';
     position: absolute;
@@ -67,7 +68,7 @@
     transform: translate(-50%, -50%);
     transition: width 0.01s ease, height 0.2s ease;
     border-radius: 100%;
-  }
+  } */
 
   .stats-flex{
     display: flex;

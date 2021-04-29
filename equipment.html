@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Единый центр сервисов</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
     <header>
       <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
-      <a href="#footer">Контакты</a>
+      <a href="#footer"><i class="fa fa-phone" aria-hidden="true"> Контакты</i></a>
     </header>
 
     <nav>
@@ -84,8 +85,12 @@
     </section>
 
     <section class="carusel">
-        <img src="img/carusel_equip_1.png" alt="carusel_equip_1">
-        <img src="img/carusel_equip_2.png" alt="carusel_equip_2">
+      <img src="img/equipment/carusel_equip_1.png" alt="carusel_equip_1">
+      <img src="img/equipment/carusel_equip_2.png" alt="carusel_equip_2">
+      <img src="img/equipment/carusel_equip_3.png" alt="carusel_equip_3">
+      <img src="img/equipment/carusel_equip_4.png" alt="carusel_equip_4">
+      <img src="img/equipment/carusel_equip_5.png" alt="carusel_equip_5">
+      <img src="img/equipment/carusel_equip_6.png" alt="carusel_equip_6">
     </section>
 
     <section class="action-section">
@@ -174,6 +179,31 @@
       <h2>Контакты</h2>
       <div class="person">
         <div class="person-name">
+          <h3>Михайлов Игорь Анатольевич</h3>
+          <p>Директор Центра коллективного пользования</p>
+          </div>
+        <img src="img/equipment/ckp_director.png" alt="petr.png">
+      </div>
+
+      <div class="contacts">
+        <ul>
+          <li>Пн-Пт: 9:00&nbsp;&mdash; 17:00</li>
+          <li>Сб-Вс: выходной</li>
+        </ul>
+
+        <ul>
+          <li>г. Москва, Cтремянный пер., д.&nbsp;36</li>
+          <li>м. Cерпуховская, Добрынинская</li>
+        </ul>
+
+        <ul>
+          <li><a href="tel:+7 (499) 237-83-31">+7 (499) 237-83-31, доб.&nbsp;1836</a></li>
+          <li><a href="mailto:ckb@rea.ru">ckp@rea.ru</a></li>
+        </ul>
+      </div>
+
+      <div class="person">
+        <div class="person-name">
           <h3>Пантюхов Пётр Васильевич</h3>
           <p>Заведующий научно-исследовательской лабораторией РЭУ</p>
         </div>
@@ -199,7 +229,7 @@
     </section>
 
     <button class="button fixed" type="button" name="button">Заказать</button>
-    
+
     <section>
     <div class="map" id="map"></div>
     </section>
@@ -232,11 +262,17 @@
       </div>
 
       <div class="bottom">
-        <p><a href="#">Официальный сайт Университета</a></p>
-        <p><a href="#">Политика конфиденциальности</a></p>
+        <p>
+          <a href="https://www.rea.ru/">Официальный сайт Университета</a></p>
+        <p>
+          <a href="https://do.rea.ru/politika-konfidentsialnosti">Политика конфиденциальности</a>
+        </p>
         <p>All rights reserved</p>
       </div>
     </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=2aeaec80-8745-4a23-8b78-bc86cb120a29
+  &lang=ru_RU" type="text/javascript">
+    </script>
     <script src="script.js"></script>
   </body>
 </html>

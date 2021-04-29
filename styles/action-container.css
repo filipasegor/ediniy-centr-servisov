@@ -17,8 +17,12 @@
 
     justify-content: space-between;
     align-items: flex-start;
-    width: 92%;
+    width: 100%;
     position: relative;
+  }
+
+  .action-container p{
+    max-width: 400px;
   }
 
   .background-gradient{
@@ -49,6 +53,7 @@
 
   .main-page{
     background-color: #F3F3F3;
+    inline-size: auto
   }
 
 
@@ -134,7 +139,6 @@
 
 
   .dropdown{
-    width: 96%;
     align-items: flex-start;
     background-color: #FFFF;
   }
@@ -222,7 +226,6 @@
   }
 
   .action-container{
-
     padding: 2.4%;
     margin-bottom: 2.4%;
   }
@@ -246,10 +249,6 @@
     width: 45px;
   }
 
-  .dropdown{
-    width: 96%;
-  }
-
 
 
   .text p{
@@ -263,4 +262,6 @@
     font-size: 25px;
     max-width: 800px;
   }
+
+
 }
